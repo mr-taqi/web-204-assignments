@@ -1,60 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Shojumaru&family=ZCOOL+KuaiLe&display=swap"
+        rel="stylesheet">
+
     <style>
-        #box{
-            width:100%;
+        #box {
+            width: 100%;
             height: auto;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 10px;
         }
 
-        #box>div{
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        #box>div {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 5px;
             border-radius: 10px;
-            justify-content: center;
+            display: flex;
+            flex-direction: column;
             align-items: center;
         }
 
-        #box>div>img:nth-of-type(1){
-            display: block;
-            margin: auto;
-            border-radius: 10px;
-        }
-
-        #box>div>h3{
+        #box>div>h3 {
+            margin: 5px;
+            padding: 0;
             text-align: center;
+            font-family: "Open Sans", sans-serif;
         }
 
-        #box>div>p{
+        #box>div>p {
+            margin: 0;
+            padding: 0;
             text-align: center;
+            font-family: "Open Sans", sans-serif;
         }
 
-        #box>div>img:nth-of-type(2){
+        #box>div>img:nth-of-type(2) {
             width: 150px;
-            height: auto;
-            display: block;
-            margin: auto;
         }
     </style>
 
 </head>
+
 <body>
     <div id="box">
         <div>
-            <img title="" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="" />
+            <img title=""
+                src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg"
+                alt="" />
 
             <h3>Vijay Shekhar Sharma</h3>
             <p>Founder & CEO</p>
-            <img title="" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="" />
+            <img title="" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg"
+                alt="" />
         </div>
         <div>
-            <img title="" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Rectangle_427_637d69bb57.png" alt="" />
+            <img title="" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Rectangle_427_637d69bb57.png"
+                alt="" />
 
             <h3>Kunal Shah</h3>
             <p>Founder</p>
@@ -62,19 +72,26 @@
 
         </div>
         <div>
-            <img title="" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/amrish_rau_pine_labs_144e5e587c.jpg" alt="" />
+            <img title=""
+                src="https://masai-website-images.s3.ap-south-1.amazonaws.com/amrish_rau_pine_labs_144e5e587c.jpg"
+                alt="" />
 
             <h3>Amrish Rau</h3>
             <p>CEO</p>
-            <img title="" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/pine_labs_0aa2407434.png" alt="" />
+            <img title="" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/pine_labs_0aa2407434.png"
+                alt="" />
         </div>
         <div>
-            <img title="" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Sampad_swain_Instamojo_f12bf6341e.jpg" alt="" />
+            <img title=""
+                src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Sampad_swain_Instamojo_f12bf6341e.jpg"
+                alt="" />
 
             <h3>Sampad Swain</h3>
             <p>Co-Founder & CEO</p>
-            <img title="" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/instamojo_8763e704f7.png" alt="" />
+            <img title="" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/instamojo_8763e704f7.png"
+                alt="" />
         </div>
     </div>
 </body>
+
 </html>
